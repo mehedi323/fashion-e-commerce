@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light" >
+<html lang="en" data-theme="light">
 
 <head>
     <meta charset="UTF-8">
@@ -8,12 +8,15 @@
     <link rel="shortcut icon" href="./images/just-logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     backgroundImage: {
-                        'hero-bg': "url('./images/bg.png')"
+                        'hero-bg': "url('./images/bg.png')",
+                        
+                        
                     }
                 }
             }
@@ -59,20 +62,89 @@
 
         <!-- Banner Section Starts Here -->
         <Section>
-            <div class="hero min-h-[calc(100vh-66px)]  bg-hero-bg bg-contain">
+            <div class="hero  min-h-[calc(100vh-66px)]  bg-hero-bg  bg-center bg-cover ">
                 <div class="hero-overlay bg-opacity-55"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </Section>
+        <!-- Banner Section Ends Here -->
+    </Header>
+    <main>
+        <!-- Fashion-Curd-Sectin Starts Here -->
+        <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 mt-10">
+            <div class="text-center mb-10">
+                <h1 class="text-4xl font-bold "> Woman T-Shirt</h1>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="card bg-slate-100 shadow-2xl p-3">
+                    <figure><img src="./images/w-t-shirt-1.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">
+                        Woman!
+                        <div class="badge badge-secondary">New T-Shirt</div>
+                      </h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="flex items-center">
+                        <div class="flex-1 font-bold text-2xl">Price: 550$</div> 
+                        <button class="flex-1 rounded-xl btn-ghost bg-indigo-400 py-2 "> <span><i class="fa-solid fa-cart-shopping"></i></span> Buy Now</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card bg-slate-100 shadow-2xl p-3">
+                    <figure><img src="./images/w-t-shirt-2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">
+                        Woman!
+                        <div class="badge badge-secondary">New T-Shirt</div>
+                      </h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="flex items-center">
+                        <div class="flex-1 font-bold text-2xl">Price: 550$</div> 
+                        <button class="flex-1 rounded-xl btn-ghost py-2 bg-indigo-400  "> <span><i class="fa-solid fa-cart-shopping"></i></span> Buy Now</button>
+                      </div>
+                    </div>
+                </div>
+                <div class="card bg-slate-100 shadow-2xl p-3">
+                    <figure><img src="./images/w-t-shirt-4.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">
+                        Woman!
+                        <div class="badge badge-secondary">New T-Shirt</div>
+                      </h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="flex items-center">
+                        <div class="flex-1 font-bold text-2xl">Price: 550$</div> 
+                        <button class="flex-1 rounded-xl py-2 btn-ghost bg-indigo-400  "> <span><i class="fa-solid fa-cart-shopping"></i></span> Buy Now</button>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Fashion-Curd-Sectin Ends Here -->
+
+        <!-- Combo Section Starts Here -->
+        <Section>
+            <div class="hero min-h-screen" style="background-image: url(./images/17\ 1.png);">
+                <div class="hero-overlay bg-opacity-30"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-md">
                     <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
                     <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button class="btn btn-primary">Get Started</button>
+                    <button class="btn ">Buy Now</button>
                   </div>
                 </div>
               </div>
         </Section>
-        <!-- Banner Section Ends Here -->
-    </Header>
-    <main></main>
+        <!-- Combo Section Ends Here -->
+    </main>
     <footer></footer>
 </body>
 
